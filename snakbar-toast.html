@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakbar / Toast Demo</title>
+    <!-- font awesome lint -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <link rel="stylesheet" href="./snakbar-toast.css">
+
+    <div class="buttons">
+
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+    
+    </div>
+
+    <div id="toastBox"></div>
+
+    <!-- this is external js link -->
+    <script src="./snakbar-toast.js"></script>
+</body>
+</html>
